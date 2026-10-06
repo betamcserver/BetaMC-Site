@@ -8,8 +8,8 @@ services:
 
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.homepage.rule=Host(`${HOST_FULL}`)"
-      - "traefik.http.routers.homepage.entrypoints=internal"
+      - "traefik.http.routers.homepage.rule=Host(`www.${HOST}`)"
+      - "traefik.http.routers.homepage.entrypoints=web"
       - "traefik.http.services.homepage.loadbalancer.server.port=80"
 
     env_file: .env
