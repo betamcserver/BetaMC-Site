@@ -1,4 +1,4 @@
-FROM caddy:2
+FROM docker.io/library/caddy:2
 
 COPY ./public /srv
 
