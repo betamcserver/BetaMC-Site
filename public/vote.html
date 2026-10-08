@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{{ $items := list
+    (dict "name" "Planet Minecraft" "link" "https://www.planetminecraft.com/server/betamc-bmc-1-beta-1-7-3-server-towns-economy-pvp-and-more/")
+    (dict "name" "Minecraft-Server-List" "link" "https://minecraft-server-list.com/server/514897/")
+    (dict "name" "Minecraft Servers.org" "link" "https://minecraftservers.org/server/678899")
+    (dict "name" "Minecraft-MP.com" "link" "https://minecraft-mp.com/server-s348927")
+    (dict "name" "NameMC" "link" "https://namemc.com/server/betamc.org")
+}}
+<html lang="en">
+    <head>
+        <title>BetaMC - About</title>
+        <link rel="stylesheet" href="/styles.css">
+        <script src="/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/Assets/BetaMC_Favicon.png">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css">
+    </head>
+    <body>
+        {{include "partial/navbar.html"}}
+        <div id="mainDiv">
+            <div id="mainText">
+                <h1>Vote for BetaMC</h1>
+                <p>Every vote helps us keep the server running!</p>
+                <div id="voteContainer">
+                    {{ range $items }}
+                        <a class="voteLink" href="{{ .link }}" target="_blank">{{ .name }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{include "partial/footer.html"}}
+    </body>
+</html>

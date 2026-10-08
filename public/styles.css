@@ -200,3 +200,18 @@ body.donations .footerContainer {
 hr {
     background-color: white;
 }
+
+#voteContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+
+    & .voteLink, .voteLink:visited {
+        color: #80a4ff;
+        display: block;
+    }
+
+    & .voteLink:hover {
+        color: #2b5ee0;
+    }
+}
