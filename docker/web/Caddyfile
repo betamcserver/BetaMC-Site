@@ -2,6 +2,9 @@
     root * /srv
     encode zstd gzip
 
+    @trailingSlash path_regexp trailingSlash ^(.+)/$
+    redir @trailingSlash {re.trailingSlash.1}{?query} 301
+
     try_files {path} {path}.html {path}
 
     templates
@@ -10,8 +13,8 @@
     @wiki path_regexp wiki ^/wiki(/.*)?$
     redir @wiki {env.WIKI_URL}{re.wiki.1} 301
 
-    @foo path /ratgame*
-    redir @foo {env.RATGAME_URL} 301
+    @ratgame path /ratgame*
+    redir @ratgame {env.RATGAME_URL} 301
 
     handle_errors {
         @404 expression {http.error.status_code} == 404
