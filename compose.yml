@@ -1,0 +1,18 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Containerfile
+      target: dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      - gradle-project:/app/.gradle
+      - gradle-build:/app/build
+      - gradle-cache:/root/.gradle
+
+volumes:
+  gradle-project:
+  gradle-build:
+  gradle-cache:

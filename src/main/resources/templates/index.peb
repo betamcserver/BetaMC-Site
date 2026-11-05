@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/static/css/output.css">
+    </head>
+    <body class="min-h-screen bg-slate-950 text-white">
+        <main class="mx-auto max-w-4xl px-6 py-24">
+            <h1 class="text-5xl font-bold">
+                {{ title }}
+            </h1>
+            <p class="mt-6 text-lg text-slate-400">
+                Ktor + Pebble + Tailwind + Docker
+            </p>
+            <div class="mt-8 rounded-xl bg-indigo-600 p-6">
+                Kotlin my beloved <3
+            </div>
+        </main>
+    </body>
+</html>
