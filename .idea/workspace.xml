@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d092f59-0176-4171-a079-17617147e38f" name="Changes" comment="Add /vote page.">
+      <change afterPath="$PROJECT_DIR$/.idea/BetaMC-Site.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AutoHeadResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Http.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Pebble.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PebbleUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Routing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StatusPages.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pebble-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ServerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/old/.env.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/old/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.override.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/compose.override.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/web/Caddyfile" beforeDir="false" afterPath="$PROJECT_DIR$/old/docker/web/Caddyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/old/docker/web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/BetaMC_Favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/BetaMC_Favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/BetaMC_Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/BetaMC_Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/BetaMC_Logo_Zoom.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/BetaMC_Logo_Zoom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/discord-logo-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/discord-logo-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/discord-mark-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/discord-mark-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/kofi-username-tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/kofi-username-tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/nightsky.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/nightsky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/tiktok-logo-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/tiktok-logo-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/wikilogos/1.5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/wikilogos/1.5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/wikilogos/1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/wikilogos/1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/wikilogos/2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/wikilogos/2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/wikilogos/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/wikilogos/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Assets/youtube-logo-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Assets/youtube-logo-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Fonts/Minecraftia.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/Fonts/Minecraftia.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/discord.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/discord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/donations.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/donations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/partial/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/partial/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/partial/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/partial/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tiktok.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/tiktok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/youtube.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/public/youtube.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RobertWesner&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/betamcserver/BetaMC-Site.git&quot;,
+    &quot;accountId&quot;: &quot;43cf8d87-c006-47bc-9622-391a232c7c63&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CG7Hpr2WfvebrMzL400UwR4oKj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ktor-pebble-tailwind&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dev/Documents/Projects/BetaMC/BetaMC-Site&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;,
+      &quot;JavaScript&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="useHeartbeat" value="true" />
+      <setting name="focusEditor" value="false" />
+      <setting name="urlFile" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d092f59-0176-4171-a079-17617147e38f" name="Changes" comment="" />
+      <created>1775999967497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775999967497</updated>
+      <workItem from="1775999968633" duration="9724000" />
+      <workItem from="1776013897563" duration="428000" />
+      <workItem from="1777669616684" duration="3468000" />
+      <workItem from="1777733272090" duration="1555000" />
+    </task>
+    <task id="LOCAL-00001" summary="Dockerize website.">
+      <option name="closed" value="true" />
+      <created>1776003229535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776003229535</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Use actual templating.">
+      <option name="closed" value="true" />
+      <created>1776005489563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776005489563</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix formatting.">
+      <option name="closed" value="true" />
+      <created>1776006448839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776006448839</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Proper 404 page.">
+      <option name="closed" value="true" />
+      <created>1776006692283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776006692283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix .env.dist URLs.">
+      <option name="closed" value="true" />
+      <created>1776006888032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776006888032</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix 404.html &lt;title&gt;.">
+      <option name="closed" value="true" />
+      <created>1776013500862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776013500862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Move navLogo into navbar.html">
+      <option name="closed" value="true" />
+      <created>1776013553420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776013553420</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Redirect /wiki/ to wiki.HOST.">
+      <option name="closed" value="true" />
+      <created>1776014323258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776014323258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add compose.override.prod.yml for non-localhost domain traefik.">
+      <option name="closed" value="true" />
+      <created>1777669407673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777669407673</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minimal change to .env.dist">
+      <option name="closed" value="true" />
+      <created>1777669591337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777669591337</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minimal change to .env.dist">
+      <option name="closed" value="true" />
+      <created>1777672397910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777672397910</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Move to internal entrypoint.">
+      <option name="closed" value="true" />
+      <created>1777674407503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777674407503</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Redirect old RatGame URL to .env URL.">
+      <option name="closed" value="true" />
+      <created>1777734183744</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777734183744</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dockerize website." />
+    <MESSAGE value="Use actual templating." />
+    <MESSAGE value="Fix formatting." />
+    <MESSAGE value="Proper 404 page." />
+    <MESSAGE value="Fix .env.dist URLs." />
+    <MESSAGE value="Fix 404.html &lt;title&gt;." />
+    <MESSAGE value="Move navLogo into navbar.html" />
+    <MESSAGE value="Redirect /wiki/ to wiki.HOST." />
+    <MESSAGE value="Add compose.override.prod.yml for non-localhost domain traefik." />
+    <MESSAGE value="Minimal change to .env.dist" />
+    <MESSAGE value="Move to internal entrypoint." />
+    <MESSAGE value="Redirect old RatGame URL to .env URL." />
+    <MESSAGE value="Add /vote page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add /vote page." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
