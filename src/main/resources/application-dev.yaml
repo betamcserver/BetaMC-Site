@@ -1,0 +1,6 @@
+tor:
+  development: true
+  deployment:
+    watch:
+      - classes
+      - resources

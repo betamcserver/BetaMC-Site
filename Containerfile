@@ -23,6 +23,8 @@ FROM base AS dev
 COPY . .
 RUN chmod +x gradlew
 
+ENV JAVA_TOOL_OPTIONS="-Dio.ktor.development=true"
+
 EXPOSE 8080
 
 CMD ["sh", "-c", "\
@@ -30,7 +32,8 @@ CMD ["sh", "-c", "\
       -i src/main/resources/static/css/input.css \
       -o src/main/resources/static/css/output.css \
       --watch --poll & \
-    ./gradlew run --continuous -Pio.ktor.development=true \
+    ./gradlew classes --continuous & \
+    ./gradlew run \
 "]
 
 

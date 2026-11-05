@@ -7,3 +7,4 @@ build/
 out/
 .kotlin/
 /src/main/resources/static/css/output.css
+.env

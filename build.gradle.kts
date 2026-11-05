@@ -27,6 +27,7 @@ dependencies {
     implementation(ktorLibs.server.pebble)
     implementation(ktorLibs.server.statusPages)
     implementation(libs.logback.classic)
+    implementation("org.apache.commons:commons-text:1.15.+")
 
     testImplementation(kotlin("test"))
     testImplementation(ktorLibs.server.testHost)

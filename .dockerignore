@@ -11,7 +11,7 @@ build
 src/main/resources/static/css/output.css
 
 .env
-.env.*
+.env.example
 !.env.example
 
 node_modules

@@ -18,5 +18,7 @@ fun Application.configureRouting() {
                 )
             )
         }
+
+        sitemap()
     }
 }
