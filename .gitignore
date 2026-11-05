@@ -1,3 +1,12 @@
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/workspace.xml
+*.iws
+*.iml
+*.ipr
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
